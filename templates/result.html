@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Top 50 words by idf</h1>
+    <table>
+        <tr>
+            <th>Word</th>
+            <th>tf</th>
+            <th>idf</th>
+        </tr>
+        {% for word, tf_idf in words %}
+        <tr>
+            <td>{{ word }}</td>
+            <td>{{ tf_idf[0] }}</td>
+            <td>{{ tf_idf[1] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+

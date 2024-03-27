@@ -1,0 +1,215 @@
+Общие по вёрстке:
++1. При фокусе на поле Срок аренды не подсвечивается синим. 
++1.1. Текст в выпадающем списке - серый, сам список другой формы. 
++1.2. Стрелка другой формы. Направленна не в ту сторону и не выделена когда поле заполнено.
++2. В чекбоксе Цвет самоката выбранный квадрат не выделен болдом. 
++2.1. Оба значения выделяются даже при выборе одного.
+=3. Поле Номер заказа  в заголовке другой формы.
++3.1. Есть кнопка Гоу.
++3.2.  Текст - Введите номер заказа.
++14=4. Пункт Когда привезём на экране Статус заказа называется - Дата доставки.
++5. Поле Номер заказа при выборе Статус заказа в хедере - есть кнопка Гоу.
++13=6. Нет изображения дороги только самокат, если ввести неверный номер заказа.
++15=7. На странице статуса заказа галочка другой формы.
++16=8. Не ставится галочка на 4-ом статусе.
++17=9. У 4-го и 5-го статуса подписи одинаковые.
++20 =10. Отступы в полях Цвет самоката и Комментарий расположены близко к краю формы.
++24=11. Текст плейсхолдера и иконка поля "Когда привезти самокат" не выделяются, при фокусе.
++25=12. Изображение руки не то формы при фокусе на элементы страницы.
++28=13. Текст сообщения отмены противоречит макету.
+
+Яндекс 1280:
++18=1. Текст в списке Станций метро - расплывчатый.
++19=2. Кнопка Назад серого цвета, когда переходишь на экран Про аренду
++21=3. Цвет чекбокса - галочка чёрная в жёлтом квадрате.
++22=3.1. Квадраты чекбокса отличаются цветом и выделением, когда не в фокусе.
++23=4. Выпадающий календарь не той формы.
++26=5. При отмене окно подтверждения отмены слишком большое, кнопка близко к тексту.
+---6. Кнопка Отменить заказ становится серой, когда всплывает окно Хотите отменить заказ.
++35=7. Цепочка статусов заказа перемещается в футер.
+
+Яндекс 1920:
++18=1. Текст в списке Станций метро - расплывчатый.
++29=2. Поле Станция метро раскрывается без нижней границы.
+---3. Кнопка Назад серого цвета, когда переходишь на экран Про аренду
++21=4. Цвет чекбокса - галочка чёрная в жёлтом квадрате.
++22=4.1. Квадраты чекбокса отличаются цветом и выделением, когда не в фокусе.
++23=5. Выпадающий календарь не той формы.
++30=6. В окне Хотите отменить заказа - кнопки расположены близко к тексту.
++27=7. При отмене окно подтверждения - кнопка близко к тексту.
+---8. Кнопка Отменить заказ становится серой, когда всплывает окно Хотите отменить заказ.
++31=9. Кнопки Назад и Отменить расположены близко к тексту.
++32=10. Не скролятся станции в Станции метро.
+
+Хром 1280:
++33=1. Цвет чекбокса - галочка чёрная в синем квадрате.
++34=1.1. Квадраты чекбокса отличаются цветом и выделением, когда не в фокусе. 
++23=2. Выпадающий календарь не той формы.
++26=3. При отмене окно подтверждения отмены слишком большое, кнопка близко к тексту.
+
+Хром 1920:
++18=1. Текст в списке Станций метро - расплывчатый.
++29=2. Поле Станция метро раскрывается без нижней границы.
++33=3. Цвет чекбокса - галочка чёрная в синем квадрате.
++34=3.1. Квадраты чекбокса отличаются цветом и выделением, когда не в фокусе. 
++23=4. Выпадающий календарь не той формы.
+---5. Поле ввода Номера заказа (экран Статуса заказа) перекрывается заголовком.
++31=6. Кнопки Назад и Отменить расположены близко к тексту.
++27=7. При отмене окно подтверждения - кнопка Хорошо близко к тексту.
++36=8. Хедер оверлапает поле для ввода номера заказа.
++32=9. Не скролятся станции в Станции метро.
++37=10. Расстояние между информацией о заказе и статусом заказа слишком большое.
+
+
+Окружение:
+
+ОС: Windows 11 (22H2)
+Браузер: Яндекс.Браузер (23.1.2.987 (64-bit)) 1280х720, 
+Яндекс.Браузер  (23.1.2.987 (64-bit)) 1920х1080, 
+Chrome 1920х1080 (110.0.5481.104 (Официальная сборка), (64 бит)),
+Chrome 1280х720 (110.0.5481.104 (Официальная сборка), (64 бит)).
+
+
+
+Для всех тестируемых браузеров:
+1. https://serg5626.youtrack.cloud/issue/19V-90/1-Layout-Plejsholder-Stanciya-metro-temnee-cvetom.
+2. https://serg5626.youtrack.cloud/issue/19V-91/2-Layout-Pole-Adres-ne-podsvechivaetsya-krasnym-esli-ne-zapolneno.
+3. https://serg5626.youtrack.cloud/issue/19V-92/3-Layout-Tekst-knopki-Dalshe-Dalee.
+4. https://serg5626.youtrack.cloud/issue/19V-93/4-Layout-Pri-fokuse-na-pole-Srok-arendy-ono-ne-podsvechivaetsya-sinim-cvetom.
+5. https://serg5626.youtrack.cloud/issue/19V-94/5-Layout-Vypadayushij-spisok-Srok-arendy-ne-pravilnogo-formata.
+6. https://serg5626.youtrack.cloud/issue/19V-95/6-Layout-V-pole-Srok-arendy-i-v-vypadayushem-spiske-tekst-ne-vydelyaetsya-pri-fokuse.
+7. https://serg5626.youtrack.cloud/issue/19V-96/7-Layout-U-strelki-v-pole-Srok-arendy-nepravilnaya-forma-i-napravlenie.
+8. https://serg5626.youtrack.cloud/issue/19V-97/8-Layout-V-pole-Srok-arendy-strelka-ne-vydelyaetsya-pri-vybore-polya-i-znacheniya-iz-spiska.
+9. https://serg5626.youtrack.cloud/issue/19V-98/9-Layout-V-chekbokse-Cvet-samokata-kontur-kvadrata-vybrannogo-cveta-ne-vydelyaetsya.
+10. https://serg5626.youtrack.cloud/issue/19V-99/10-Layout-V-chekbokse-Cvet-samokata-oba-cveta-vydelyaetsya-pri-vybore-odnogo-iz-nih.
+11. https://serg5626.youtrack.cloud/issue/19V-100/11-Layout-V-hedere-prisutstvuet-knopka-Go.
+12. https://serg5626.youtrack.cloud/issue/19V-101/12-Layout-Tekst-polya-Status-zakaza-v-hedere-Vvedite-nomer-zakaza.
+13. https://serg5626.youtrack.cloud/issue/19V-102/13-Layout-Net-izobrazheniya-dorogi-tolko-samokat-esli-vvesti-nevernyj-nomer-zakaza.
+14. https://serg5626.youtrack.cloud/issue/19V-103/14-Layout-Punkt-Kogda-privezyom-na-ekrane-Status-zakaza-nazyvaetsya-Data-dostavki.
+15. https://serg5626.youtrack.cloud/issue/19V-104/15-Layout-Na-ekrane-Status-zakaza-galochka-v-statuse-zakaza-drugoj-formy.
+16. https://serg5626.youtrack.cloud/issue/19V-105/16-Layout-Ne-stavitsya-galochka-o-vypolnenie-4-go-punkta-v-statuse-zakaza.
+17. https://serg5626.youtrack.cloud/issue/19V-106/17-Layout-Na-ekrane-Status-zakaza-tekst-4-go-i-5-go-statusa-dubliruyutsya.
+18. https://serg5626.youtrack.cloud/issue/19V-109/20-Layout-Tekst-v-polyah-Cvet-samokata-i-Kommentarij-raspolozhen-blizko-k-krayu-polya.
+19. https://serg5626.youtrack.cloud/issue/19V-113/24-Layout-Tekst-plejsholdera-i-ikonka-polya-Kogda-privezti-samokat-ne-vydelyayutsya-pri-fokuse.
+20. https://serg5626.youtrack.cloud/issue/19V-114/25-Layout-Izobrazhenie-ukazatelya-myshki-ne-to-formy-pri-fokuse-na-elementy-stranicy.
+21. https://serg5626.youtrack.cloud/issue/19V-117/28-Layout-Tekst-formy-Zakaz-otmenyon-v-makete-protivorechit-trebovaniyam.
+
+Яндекс 1280х720:
+1. https://serg5626.youtrack.cloud/issue/19V-107/18-Layout-Tekst-v-spiske-Stanciya-metro-rasplyvchatyj.
+2. https://serg5626.youtrack.cloud/issue/19V-108/19-Layout-Knopka-Nazad-V-forme-Pro-arendu-serogo-cveta.
+3. https://serg5626.youtrack.cloud/issue/19V-110/21-Layout-Cvet-vydelennogo-punkta-v-chekbokse-Cvet-samokata-galochka-chyornaya-v-zhyoltom-kvadrate.
+4. https://serg5626.youtrack.cloud/issue/19V-111/22-Layout-U-kvadratov-vybora-v-chekbokse-Cvet-samokata-tolshina-granic-tonshe.
+5. https://serg5626.youtrack.cloud/issue/19V-112/23-Layout-Vypadayushij-kalendar-v-forme-Pro-arendu-ne-vernoj-formy.
+6. https://serg5626.youtrack.cloud/issue/19V-115/26-Layout-Pri-otmene-zakaza-okno-Zakaz-otmenyon-slishkom-bolshoe-knopka-blizko-k-tekstu.
+7. https://serg5626.youtrack.cloud/issue/19V-124/35-Layout-V-YandeksBrauzere-1280h720-na-ekrane-Status-zakaza-cepochka-statusov-raspologaetsya-v-futere.
+
+
+Яндекс 1920х1080:
+1. https://serg5626.youtrack.cloud/issue/19V-107/18-Layout-Tekst-v-spiske-Stanciya-metro-rasplyvchatyj.
+2. https://serg5626.youtrack.cloud/issue/19V-110/21-Layout-Cvet-vydelennogo-punkta-v-chekbokse-Cvet-samokata-galochka-chyornaya-v-zhyoltom-kvadrate.
+3. https://serg5626.youtrack.cloud/issue/19V-111/22-Layout-U-kvadratov-vybora-v-chekbokse-Cvet-samokata-tolshina-granic-tonshe.
+4. https://serg5626.youtrack.cloud/issue/19V-112/23-Layout-Vypadayushij-kalendar-v-forme-Pro-arendu-ne-vernoj-formy.
+5. https://serg5626.youtrack.cloud/issue/19V-116/27-Layout-Pri-otmene-zakaza-knopka-Horosho-raspolozhena-blizko-k-tekstu.
+6. https://serg5626.youtrack.cloud/issue/19V-118/29-Layout-Nizhnyaya-granica-polya-Stanciya-metro-ne-otobrazhaetsya-pri-otkrytie-spiska.
+7. https://serg5626.youtrack.cloud/issue/19V-119/30-Layout-Knopka-Horosho-v-okne-Zakaz-otmenyon-raspolozhena-blizko-k-tekstu.
+8. https://serg5626.youtrack.cloud/issue/19V-120/31-Layout-Knopki-Nazad-i-Otmenit-menshe-razmerom-v-okne-Hotite-otmenit-zakaz-i-raspolozheny-blizko-k-tekstu.
+9. https://serg5626.youtrack.cloud/issue/19V-121/32-Layout-Ne-skrolyatsya-stancii-v-pole-Stancii-metro.
+
+Хром 1280х720:
+1. https://serg5626.youtrack.cloud/issue/19V-112/23-Layout-Vypadayushij-kalendar-v-forme-Pro-arendu-ne-vernoj-formy.
+2. https://serg5626.youtrack.cloud/issue/19V-115/26-Layout-Pri-otmene-zakaza-okno-Zakaz-otmenyon-slishkom-bolshoe-knopka-blizko-k-tekstu.
+3. https://serg5626.youtrack.cloud/issue/19V-122/33-Layout-Cvet-vydelennogo-punkta-v-chekbokse-Cvet-samokata-galochka-belaya-v-sinem-kvadrate.
+4. https://serg5626.youtrack.cloud/issue/19V-123/34-Layout-U-kvadratov-vybora-v-chekbokse-Cvet-samokata-tolshina-granic-ne-v-fokuse-tonshe-cvet-granicy-otlichaetsya.
+
+Хром 1920х1080:
+1. https://serg5626.youtrack.cloud/issue/19V-107/18-Layout-Tekst-v-spiske-Stanciya-metro-rasplyvchatyj.
+2. https://serg5626.youtrack.cloud/issue/19V-112/23-Layout-Vypadayushij-kalendar-v-forme-Pro-arendu-ne-vernoj-formy.
+3. https://serg5626.youtrack.cloud/issue/19V-116/27-Layout-Pri-otmene-zakaza-knopka-Horosho-raspolozhena-blizko-k-tekstu.
+4. https://serg5626.youtrack.cloud/issue/19V-118/29-Layout-Nizhnyaya-granica-polya-Stanciya-metro-ne-otobrazhaetsya-pri-otkrytie-spiska.
+5. https://serg5626.youtrack.cloud/issue/19V-120/31-Layout-Knopki-Nazad-i-Otmenit-menshe-razmerom-v-okne-Hotite-otmenit-zakaz-i-raspolozheny-blizko-k-tekstu.
+6. https://serg5626.youtrack.cloud/issue/19V-121/32-Layout-Ne-skrolyatsya-stancii-v-pole-Stancii-metro.
+7. https://serg5626.youtrack.cloud/issue/19V-122/33-Layout-Cvet-vydelennogo-punkta-v-chekbokse-Cvet-samokata-galochka-belaya-v-sinem-kvadrate.
+8. https://serg5626.youtrack.cloud/issue/19V-123/34-Layout-U-kvadratov-vybora-v-chekbokse-Cvet-samokata-tolshina-granic-ne-v-fokuse-tonshe-cvet-granicy-otlichaetsya.
+9. https://serg5626.youtrack.cloud/issue/19V-127/36-Layout-Heder-overlapaet-pole-dlya-vvoda-nomera-zakaza.
+
+Логика:
+1. https://serg5626.youtrack.cloud/issue/19V-125/1-Logic-Knopka-otmenit-propadaet-s-ekrana-Status-zakaza-posle-togo-kak-kurer-prinyal-zakaz.
+2. https://serg5626.youtrack.cloud/issue/19V-126/1-Logic-Otmenyonnyj-zakaz-ne-udalyaetsya-iz-sistemy.
+3. https://serg5626.youtrack.cloud/issue/19V-128/3-Logic-V-4-om-statuse-zakaza-vmesto-dnya-i-mesyaca-pishet-den-nedeli.
+4. https://serg5626.youtrack.cloud/issue/19V-129/4-Logic-Dlinnoe-imya-kurera-ne-perenositsya-na-druguyu-stroku-vo-2-om-statuse-zakaza.
+5. https://serg5626.youtrack.cloud/issue/19V-131/5-Logic-V-brauzere-Chrome-ne-vozmozhno-oformit-zakaz.
+6. https://serg5626.youtrack.cloud/issue/19V-132/6-Logic-Narushen-poryadok-statusov-zakaza-esli-zakaz-prosrochen.
+7. https://serg5626.youtrack.cloud/issue/19V-133/7-Logic-Vmesto-okna-Zakaz-oformlen-vsplyvaet-dopolnitelnoe-okno-podtverzhdenie-Hotite-oformit-zakaz.
+8. https://serg5626.youtrack.cloud/issue/19V-134/8-Logic-V-pole-Stanciya-metro-nelzya-vybrat-nabrannyj-tekst-po-nazhatiyu-Enter.
+9. https://serg5626.youtrack.cloud/issue/19V-135/9-Logic-V-pole-Stanciya-metro-poisk-stancij-osushestvlyaetsya-ne-po-polnomu-sovpadeniyu-vvodimogo-teksta.
+10. https://serg5626.youtrack.cloud/issue/19V-136/10-Logic-V-vypadayushem-kalendare-Kogda-privezti-vybiraetsya-lyubaya-data.
+11. https://serg5626.youtrack.cloud/issue/19V-137/11-Logic-Oshibka-Nekorrektnoe-imya-polya-ne-poyavlyaetsya-pri-ne-zapolnennoj-date-i-sroke-arendy.
+12. https://serg5626.youtrack.cloud/issue/19V-138/12-Logic-Nelzya-perejti-po-nazhatiyu-Enter-v-status-zakaza.
+13. https://serg5626.youtrack.cloud/issue/19V-139/12-Logic-V-zakaze-stancii-metro-v-mobilnoj-i-v-veb-versii-otlichayutsya.
+14. https://serg5626.youtrack.cloud/issue/19V-140/14-Logic-Pri-obnovlenij-ekrana-Status-zakaza-proskakivaet-izobrazhenie-soobsheniya-ob-oshibke-Takogo-zakaza-net.
+15. https://serg5626.youtrack.cloud/issue/19V-141/15-Logic-U-prosrochennogo-zakaza-poryadok-statusov-ne-sootvetsvuyushij.
+16. https://serg5626.youtrack.cloud/issue/19V-142/16-Logic-4-yj-status-Nu-vsyo-teper-katatsya-ne-menyaetsya-na-status-Vremya-arendy-konchilos-esli-zakaz-prosrochen.
+17. https://serg5626.youtrack.cloud/issue/19V-143/17-Logic-Pole-Imya-ne-podderzhivaet-tire.
+18. https://serg5626.youtrack.cloud/issue/19V-144/18-Logic-U-polya-Familiya-net-ogranicheniya.
+19. https://serg5626.youtrack.cloud/issue/19V-145/19-Logic-Dlina-polya-Adres-ogranichena-49-simvolami.
+20. https://serg5626.youtrack.cloud/issue/19V-146/20-Logic-Pole-Adres-ne-obyazatelnoe.
+21. https://serg5626.youtrack.cloud/issue/19V-147/21-Logic-Dlina-polya-Telefon-ne-podderzhivaet-10-simvolov.
+22. https://serg5626.youtrack.cloud/issue/19V-148/22-Logic-V-pole-Telefon-mozhno-vvesti-13-simvolov.
+23. https://serg5626.youtrack.cloud/issue/19V-149/23-Logic-V-pole-Kommentarij-mozhno-vvesti-25-simvolov.
+24. https://serg5626.youtrack.cloud/issue/19V-150/24-Logic-Pole-Kommentarij-podderzhivaet-latinicu.
+25. https://serg5626.youtrack.cloud/issue/19V-151/25-Logic-Pole-Kommentarij-podderzhivaet-spec.-simvoly.
+26. 
+
+Мобила:
+1. https://serg5626.youtrack.cloud/issue/19V-152/1-Mobile-Push-uvedomlenie-prihodit-v-den-okonchaniya-zakaza-a-ne-za-2-chasa.
+2. https://serg5626.youtrack.cloud/issue/19V-153/2-Mobile-Tekst-push-uvedomleniya-ne-soderzhit-vremeni-N.
+3. https://serg5626.youtrack.cloud/issue/19V-154/3-Mobile-Prilozhenie-vyletaet-pri-tape-na-push-uvedomlenie.
+4. https://serg5626.youtrack.cloud/issue/19V-155/4-Mobile-Drugoj-format-u-teksta-soobsheniya-ob-otsutstvie-internet-soedineniya.
+5. https://serg5626.youtrack.cloud/issue/19V-156/5-Mobile-Okno-ob-otsutstvie-internet-soedineniya-zakryvaetsya-pri-tape-na-lyubuyu-oblast-vne-okna.
+6. https://serg5626.youtrack.cloud/issue/19V-157/6-Mobile-Sinyaya-tochka-na-vkladke-Moi-otobrazhaetsya-vsegda.
+7. https://serg5626.youtrack.cloud/issue/19V-158/7-Mobile-Plejsholdery-Login-i-Parol-otsutstvuyut.
+8. https://serg5626.youtrack.cloud/issue/19V-159/8-Mobile-Prinyatyj-zakaz-dubliruetsya.
+9. https://serg5626.youtrack.cloud/issue/19V-160/9-Mobile-Vsplyvaet-soobshenie-Zakaz-prinyat-pri-zavershenie-zakaza.
+10. https://serg5626.youtrack.cloud/issue/19V-161/10-Mobile-Izobrazhenie-ladonej-vmesto-knigi-kogda-net-zakazov.
+11. https://serg5626.youtrack.cloud/issue/19V-162/11-Mobile-Knopka-prinyat-overlapaet-nazvanie-stancii-metro.
+12. https://serg5626.youtrack.cloud/issue/19V-163/12-Mobile-Posle-prinyatiya-zakaza-kartochka-zakaza-uezzhaet-vlevo-a-ne-vverh.
+13. https://serg5626.youtrack.cloud/issue/19V-164/13-Mobile-Data-dostavki-v-kartochke-u-prosrochennogo-zakaza-ne-podsvechivaetsya-krasnym.
+14. https://serg5626.youtrack.cloud/issue/19V-165/14-Mobile-V-rasshirennoj-kartochke-zakaza-ne-otobrazhaetsya-pole-Kommentarij.
+15. https://serg5626.youtrack.cloud/issue/19V-166/15-Mobile-Cherta-razdelyayushaya-kartochku-zakaza-korotkuyu-ot-dlinnoj-ne-do-konca-prorisovana.
+16. https://serg5626.youtrack.cloud/issue/19V-167/16-Mobile-Znachok-vyhoda-iz-uchyotnoj-zapisi-vvide-chelovechka.
+17. https://serg5626.youtrack.cloud/issue/19V-168/17-Mobile-Pole-cvet-pustoe-v-kartochke-zakaza-esli-ne-vybrat-cvet-samokata.
+18. https://serg5626.youtrack.cloud/issue/19V-169/18-Mobile-Knopki-v-uvedomlenie-Vy-hotite-prinyat-zakaz-vytyanuty-vverh.
+19. https://serg5626.youtrack.cloud/issue/19V-170/19-Mobile-Dejstviya-s-kartochkami-na-vkladke-Vse-povtoryayut-kartochki-na-vkladke-Moi
+20. https://serg5626.youtrack.cloud/issue/19V-171/20-Mobile-Zavershyonnye-zakazy-na-vkladke-Moi-peremeshayutsya-naverh-i-data-zakaza-menyaetsya-na-tekushuyu.
+21. https://serg5626.youtrack.cloud/issue/19V-172/21-Mobile-Skrol-spiska-stancij-poyavlyaetsya-na-8-stancii.
+22. 
+
+АПИ:
+1. https://serg5626.youtrack.cloud/issue/19V-174/1-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-loginom-iz-kirillicheskih-bukv.
+2. https://serg5626.youtrack.cloud/issue/19V-175/2-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-loginom-iz-specsimvolov.
+3. https://serg5626.youtrack.cloud/issue/19V-176/3-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-loginom-dlinnoj-v-odin-simvol.
+4. https://serg5626.youtrack.cloud/issue/19V-178/5-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-loginom-dlinnoj-v-15-simvolov.
+5. https://serg5626.youtrack.cloud/issue/19V-178/5-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-loginom-dlinnoj-v-15-simvolov.
+6. https://serg5626.youtrack.cloud/issue/19V-179/6-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-firstName.
+7. https://serg5626.youtrack.cloud/issue/19V-180/7-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-firstName1234.
+8. https://serg5626.youtrack.cloud/issue/19V-181/8-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-firstName-dlinnoj-v-odin-simvol.
+9. https://serg5626.youtrack.cloud/issue/19V-182/9-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-firstName-dlinnoj-v-11-simvolov.
+10. https://serg5626.youtrack.cloud/issue/19V-183/10-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-firstName-dlinnoj-v-15-simvolov.
+11. https://serg5626.youtrack.cloud/issue/19V-184/11-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-parolem-dlinnoj-v-3-simvola.
+12. https://serg5626.youtrack.cloud/issue/19V-185/11-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-parolem-dlinnoj-v-5-simvolov.
+13. https://serg5626.youtrack.cloud/issue/19V-186/13-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-parolem-sostoyashij-iz-latinskih-bukv.
+14. https://serg5626.youtrack.cloud/issue/19V-187/14-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-parolem-sostoyashij-iz-kirillicheskih-bukv.
+15. https://serg5626.youtrack.cloud/issue/19V-188/15-API-Mozhno-sozdat-kurera-POST-serverurl-api-v1-orders-s-parolem-iz-specsimvolov.
+16. https://serg5626.youtrack.cloud/issue/19V-189/16-API-Pri-udalenii-kurera-DELETE-serverurl-api-v1-courier-id-svyazannye-s-nim-zakazy-ne-udalyayutsya-iz-bazy.
+17. https://serg5626.youtrack.cloud/issue/19V-190/17-API-404-pri-udalenii-kurera-bez-id-DELETE-serverurl-api-v1-courier-.
+18. https://serg5626.youtrack.cloud/issue/19V-192/18-API-404-pri-udalenii-kurera-bez-id-DELETE-serverurl-api-v1-courier-0.
+19. https://serg5626.youtrack.cloud/issue/19V-193/19-API-404-pri-udalenii-kurera-bez-id-DELETE-serverurl-api-v1-courier-1.
+20. https://serg5626.youtrack.cloud/issue/19V-194/20-API-404-pri-GET-api-v1-orders-trackt0
+21. https://serg5626.youtrack.cloud/issue/19V-195/21-API-Parametr-status-v-otvete-na-zapros-GET-serverurl-api-v1-orders-trackttrek-nomer-zakaza-nahoditsya-v-samom-nizu-otveta.
+22. https://serg5626.youtrack.cloud/issue/19V-196/22-API-Parametr-courierFirstName-v-otvete-na-zapros-GET-serverurl-api-v1-orders-trackttrek-nomer-zakaza-ne-na-svoyom-meste.
+23. https://serg5626.youtrack.cloud/issue/19V-197/23-API-Zakaz-ne-otmenyaetsya-PUT-serverurl-api-v1-orders-cancel.
+24. https://serg5626.youtrack.cloud/issue/19V-198/24-API-Nelzya-posmotret-zakazy-kurera-GET-serverurl-api-v1-courier-1-ordersCount.
+25. https://serg5626.youtrack.cloud/issue/19V-199/25-API-Vse-oshibki-zapisyvayutsya-v-error.log-kak-500-ye.
+
+
+121-bugs
